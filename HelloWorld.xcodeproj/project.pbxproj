@@ -22,6 +22,7 @@
 		5A4869F913AAEA0E0066BB3E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5A4869F713AAEA0E0066BB3E /* InfoPlist.strings */; };
 		5A4869FC13AAEA0E0066BB3E /* HelloWorldTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 5A4869FB13AAEA0E0066BB3E /* HelloWorldTests.h */; };
 		5A4869FE13AAEA0E0066BB3E /* HelloWorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4869FD13AAEA0E0066BB3E /* HelloWorldTests.m */; };
+		5AF427DD13AB9B3300021C3F /* smithed.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AF427DC13AB9B3300021C3F /* smithed.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		5A4869FA13AAEA0E0066BB3E /* HelloWorldTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloWorldTests-Prefix.pch"; sourceTree = "<group>"; };
 		5A4869FB13AAEA0E0066BB3E /* HelloWorldTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldTests.h; sourceTree = "<group>"; };
 		5A4869FD13AAEA0E0066BB3E /* HelloWorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldTests.m; sourceTree = "<group>"; };
+		5AF427DC13AB9B3300021C3F /* smithed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = smithed.jpg; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 				5A4869E313AAEA0E0066BB3E /* HelloWorldViewController.h */,
 				5A4869E413AAEA0E0066BB3E /* HelloWorldViewController.m */,
 				5A4869E613AAEA0E0066BB3E /* HelloWorldViewController.xib */,
+				5AF427DC13AB9B3300021C3F /* smithed.jpg */,
 				5A4869D513AAEA0E0066BB3E /* Supporting Files */,
 			);
 			path = HelloWorld;
@@ -228,6 +231,7 @@
 				5A4869D913AAEA0E0066BB3E /* InfoPlist.strings in Resources */,
 				5A4869E213AAEA0E0066BB3E /* MainWindow.xib in Resources */,
 				5A4869E813AAEA0E0066BB3E /* HelloWorldViewController.xib in Resources */,
+				5AF427DD13AB9B3300021C3F /* smithed.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,6 +450,7 @@
 				5A486A0313AAEA0E0066BB3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5A486A0413AAEA0E0066BB3E /* Build configuration list for PBXNativeTarget "HelloWorldTests" */ = {
 			isa = XCConfigurationList;
@@ -454,6 +459,7 @@
 				5A486A0613AAEA0E0066BB3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

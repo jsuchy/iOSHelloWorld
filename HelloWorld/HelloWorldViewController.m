@@ -12,6 +12,7 @@
 
 @synthesize myLabel;
 @synthesize myButton;
+@synthesize myView;
 
 - (IBAction)buttonPressed:(id)sender
 {
@@ -39,7 +40,9 @@
     }
     else 
     {
-        [myLabel setText:@"CRASH!"];
+        myView.image = [UIImage imageNamed:@"smithed.jpg"];
+        
+        [myLabel setText:@""];
     }
     
 }
