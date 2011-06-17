@@ -9,7 +9,14 @@
 #import <UIKit/UIKit.h>
 
 @interface HelloWorldViewController : UIViewController {
-    
+    UILabel *myLabel;
+    UIButton *myButton;
+    int numClicks;
 }
+
+@property (nonatomic, retain) IBOutlet UILabel *myLabel;
+@property (nonatomic, retain) IBOutlet UIButton *myButton;
+
+- (IBAction)buttonPressed:(id)sender;
 
 @end

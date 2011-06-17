@@ -10,6 +10,45 @@
 
 @implementation HelloWorldViewController
 
+@synthesize myLabel;
+@synthesize myButton;
+
+- (IBAction)buttonPressed:(id)sender
+{
+    numClicks += 1;
+    
+    if (numClicks < 2)
+    {
+        [myLabel setText:@"I told you not to press the button!"];
+    }
+    else if (numClicks < 3)
+    {
+        [myLabel setText:@"Seriously, don't do that again..."];
+    }
+    else if (numClicks < 4)
+    {
+        [myLabel setText:@"Now you've done it."];
+    }
+    else if (numClicks < 5)
+    {
+        [myLabel setText:@"I will Smith your iPhone!"];
+    }
+    else if (numClicks < 6)
+    {
+        [myLabel setText:@"I'll do it, I swear."];
+    }
+    else 
+    {
+        [myLabel setText:@"CRASH!"];
+    }
+    
+}
+
+- (id)init
+{
+    numClicks = 0;
+}
+
 - (void)dealloc
 {
     [super dealloc];
