@@ -50,6 +50,7 @@
 - (id)init
 {
     numClicks = 0;
+    return self;
 }
 
 - (void)dealloc
